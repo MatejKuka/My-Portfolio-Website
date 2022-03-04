@@ -1,0 +1,165 @@
+* {
+    //outline: black 1px solid;
+    font-family: 'Sen', sans-serif;
+
+}
+
+p, h1, h2, h3, h4. a, li {
+    font-family: 'Sen', sans-serif;
+}
+
+
+/*
+Background:
+HEX: #245D7E
+   RGB: rgb(36,93,126)
+*/
+/*
+text:
+HEX: #F8BB71
+RGB: rgb(248,187,113)
+ */
+
+
+.color-bg {
+    background-color: #245D7E;
+}
+.color-text {
+    background-color: #F8BB71;
+}
+
+.navbarItemText {
+    font-size: 24px;
+    margin-right: 10px;
+    font-weight: bolder;
+    //color: black;
+}
+
+
+.slider {
+    margin-top: 65px;
+    height: 800px;
+    position: relative;
+    background-image: linear-gradient(110deg, #F8BB71 60%, #245D7E 60%);
+    border-bottom: black 5px solid;
+}
+
+#navbarNameLogo {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#contactItem {
+    background-color: #245D7E;
+    color: #F8BB71;
+    margin: auto 10px;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#contactItem:hover {
+    background-color: darkslategray;
+}
+
+#imageSlider {
+    height: 45rem;
+    position: absolute;
+    bottom: 50px;
+    right: 12%;
+
+}
+
+.slider-text {
+    position: absolute;
+    top: 30%;
+    margin-left: 6%;
+}
+
+.slider-text p {
+    display: block;
+    width: 620px;
+}
+
+.slider-text p:nth-child(1) {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.slider-text p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.slider-text p:nth-child(3) {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.separatorExperience{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 50%;
+    background-color:  #245D7E;
+    font-size: 70px;
+    color: #F8BB71;
+    padding: 15px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-transform: uppercase;
+    right: 25%;
+    top: -60px;
+    border: black 4px solid;
+}
+
+.paraSection {
+    position: relative;
+}
+
+.experienceSection {
+    height: 600px;
+}
+
+.flex-parent {
+    margin: 200px 50px 0px 50px;
+}
+
+#separator  {
+    height: 200px;
+}
+
+#sectionAboutMeImage {
+border-radius: 20px;
+}
+
+.sectionAboutMeDesc p:nth-child(1) {
+    font-size: 25px;
+}
+
+.sectionAboutMeDesc p:nth-child(2) {
+    font-size: 25px;
+}
+
+.sectionAboutMeDesc ul li {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sectionAboutMeKnowMore {
+    margin: 30px auto;
+    width: 55%;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
