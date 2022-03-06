@@ -4,9 +4,6 @@
 
 }
 
-p, h1, h2, h3, h4. a, li {
-    font-family: 'Sen', sans-serif;
-}
 
 
 /*
@@ -21,18 +18,11 @@ RGB: rgb(248,187,113)
  */
 
 
-.color-bg {
-    background-color: #245D7E;
-}
-.color-text {
-    background-color: #F8BB71;
-}
 
 .navbarItemText {
     font-size: 24px;
     margin-right: 10px;
     font-weight: bolder;
-    //color: black;
 }
 
 
@@ -45,7 +35,7 @@ RGB: rgb(248,187,113)
 }
 
 #navbarNameLogo {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 800;
 }
 
@@ -63,18 +53,37 @@ RGB: rgb(248,187,113)
     background-color: darkslategray;
 }
 
-#imageSlider {
-    height: 45rem;
+.sliderIcons {
     position: absolute;
-    bottom: 50px;
-    right: 12%;
+    right: 1%;
+    top: 3%;
+}
+.sliderIcons a {
+    display: block;
+}
 
+.sliderIcons a:hover {
+    border-radius: 15px;
+    background-color: darkslategray;
+}
+
+#imageSlider {
+    height: 100%;
+    width: 100%;
+    background-image: url('source/statue1000x1440.png');
+    background-repeat: no-repeat;
+    background-size: 520px;
+    background-position-x: 70%;
+    position: relative;
 }
 
 .slider-text {
-    position: absolute;
-    top: 30%;
     margin-left: 6%;
+    height: 600px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .slider-text p {
@@ -82,18 +91,28 @@ RGB: rgb(248,187,113)
     width: 620px;
 }
 
-.slider-text p:nth-child(1) {
-    font-size: 60px;
+#myNameEffect {
+    background: url("source/greensquare1.png") ;
+    background-repeat: no-repeat;
+    background-size: 390px 35px;
+    background-position-y: 30px;
+    background-position-x: 150px ;
+
+}
+
+
+.slider-text h2:nth-child(1) {
+    font-size: 70px;
     font-weight: 800;
 }
 
-.slider-text p:nth-child(2) {
-    font-size: 24px;
+.slider-text h1:nth-child(2) {
+    font-size: 30px;
     font-weight: 700;
 }
 
 .slider-text p:nth-child(3) {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -127,34 +146,142 @@ RGB: rgb(248,187,113)
     margin: 200px 50px 0px 50px;
 }
 
-#separator  {
-    height: 200px;
+.separator  {
+    height: 150px;
 }
 
 #sectionAboutMeImage {
-border-radius: 20px;
+    border-radius: 25px;
+    width: 450px;
 }
 
 .sectionAboutMeDesc p:nth-child(1) {
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .sectionAboutMeDesc p:nth-child(2) {
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .sectionAboutMeDesc ul li {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: bold;
 }
 
 #sectionAboutMeKnowMore {
     margin: 30px auto;
-    width: 55%;
+    width: 60%;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
 }
+
+.btn-myStyle {
+    font-weight: bold;
+    color: #F8BB71;
+    background-color: #245D7E;
+    width: 220px;
+    display: block;
+    margin: 0px auto;
+}
+
+.btn-myStyle:hover {
+    color: #F8BB71;
+    background-color: darkslategray;
+}
+
+.btn-myStyle img {
+    width: 35px;
+}
+
+.h2Titles {
+    text-align: center;
+    color: #F8BB71;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.sectionSkillsDesc {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.progress-bar-myStyle {
+    color: white;
+    font-weight: bold;
+    background-color: #245D7E;
+}
+
+.progress-bar-desc {
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.progressWrapper {
+    margin: 15px 0px;
+}
+
+.sectionSkillsListItem li {
+font-size: 24px;
+}
+
+#sectionProjectMe{
+    text-align: center;
+    color: #F8BB71;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.sectionContactMe {
+    height: 450px;
+    background-color: #245D7E;
+}
+
+.sectionContactMe h2{
+    color: #F8BB71;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+
+.sectionContactMeForms {
+    border-radius: 10px;
+}
+
+.sectionContactMeLabels {
+    font-size: 26px;
+    margin: 8px 0px 3px 0px;
+    color: #F8BB71;
+    font-weight: bold;
+}
+
+.sectionContactMeButton {
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.sectionContactMeMessage {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-height: 160px;
+}
+
+.sectionContactMeFormulars {
+    //width: 85%;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
 
 
 

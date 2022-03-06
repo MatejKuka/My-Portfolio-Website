@@ -23,13 +23,13 @@
                     <a class="nav-link navbarItemText" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarItemText" href="#">About</a>
+                    <a class="nav-link navbarItemText" href="#sectionAboutMe">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarItemText" href="#">My work</a>
+                    <a class="nav-link navbarItemText" href="#sectionMyProjects">My work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="contactItem" href="#">Contact</a>
+                    <a class="nav-link" id="contactItem" href="#sectionContactMe">Contact</a>
                 </li>
             </ul>
         </div>
@@ -37,20 +37,26 @@
 </header>
 
 <div class="slider">
+    <div id="imageSlider">
     <div class="slider-text">
-        <p>I’m Matej Kuka</p>
-        <p>Mostly web developer and software developer <br>with passion in business and start-ups</p>
-        <p>• Curently based in Esbjerg, Denmark </p>
+        <h2 id="myNameEffect">I’m Matej Kuka</h2>
+        <h1>Web developer and software developer <br>
+            with passion in business and start-ups</h1>
+        <p>• Curently based in Esbjerg, Denmark 🇩🇰</p>
     </div>
-
-    <!-- COMMENT HERE -->
-    <img id="imageSlider" src="/source/statueHD.png" alt="robotPicture">
+        <div class="sliderIcons">
+            <a href="https://github.com/MatejKuka?tab=repositories"><img src="source/icons8-github-60.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/matej-kuka-126a691b9/"><img src="source/icons8-linkedin-60.png" alt=""></a>
+            <a href="https://www.instagram.com/matejkuka/"><img src="source/icons8-instagram-60.png" alt=""></a>
+            <a href="https://www.facebook.com/matej.kuka.3"><img src="source/icons8-facebook-60.png" alt=""></a>
+        </div>
+    </div>
 
 </div>
 <div class="paraSection">
-    <p class="separatorExperience">About me</p>
+    <p id="sectionAboutMe" class="separatorExperience">About me</p>
 </div>
-<div id="separator"></div>
+<div class="separator"></div>
 
 <section class="experienceSection">
 
@@ -59,12 +65,12 @@
         <div class="col-lg-5 ">
             <img src="source/myphoto-bg.png" id="sectionAboutMeImage" alt="Matej Kuka photo">
         </div>
-        <div class="col-lg sectionAboutMeDesc">
+        <div class="col-lg-7 sectionAboutMeDesc">
         <p>
             Let my introduce myself a little bit. Currently, I am junior programmer. I am interested mostly in web development but I have some experience in software development as well.
         </p>
         <p>
-            My education is in Computer science - software development. During my studies, I found my passion in start-ups, management or business development.
+            My education is in Computer science - software development. During my studies, I found my passion in start-ups, management and business development.
             <br> Originally, I am from Slovakia.
         </p>
         <ul>
@@ -76,21 +82,133 @@
     </div>
 </div>
     <p id="sectionAboutMeKnowMore">
-        If you want to know more about me, my experiences, you can check my LinkedIN profile, download my CV or contact me.
+        If you want to know more about me or my experiences, you can download my CV, check my LinkedIn profile or contact me directly.
     </p>
 <div class="container">
     <div class="row">
         <div class="col-lg-4">
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-myStyle btn-lg ">Download CV <img src="/source/icons8-download-48.png" alt="icon"> </button>
         </div>
         <div class="col-lg-4">
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button"  class="btn btn-myStyle btn-lg">LinkedIn <img src="/source/icons8-linkedin-60.png" alt="icon"> </button>
         </div>
         <div class="col-lg-4">
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-myStyle btn-lg">Contact me <img src="/source/icons8-mail-48.png" alt="icon">
+            </button>
         </div>
     </div>
 </div>
+</section>
+<section>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <h2 class="h2Titles">My technical skills</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="sectionSkillsDesc"> My confidence in the languages and frameworks:</p>
+
+                <div class="progressWrapper">
+                <p class="progress-bar-desc">HTML</p>
+                <div class="progress w-75">
+                <div class="progress-bar  progress-bar-myStyle " role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+
+            </div></div>
+                <div class="progressWrapper">
+                <p class="progress-bar-desc">CSS</p>
+                <div class="progress w-75">
+                    <div class="progress-bar  progress-bar-myStyle " role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+
+                </div></div>
+                <div class="progressWrapper">
+                <p class="progress-bar-desc">Javascript</p>
+                <div class="progress w-75">
+                    <div class="progress-bar  progress-bar-myStyle " role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">15%</div>
+
+                </div> </div>
+                <div class="progressWrapper">
+                <p class="progress-bar-desc">Bootstrap</p>
+                <div class="progress w-75">
+                    <div class="progress-bar  progress-bar-myStyle " role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+
+                </div> </div>
+                <div class="progressWrapper">
+                <p class="progress-bar-desc">Node.js</p>
+                <div class="progress w-75">
+                    <div class="progress-bar  progress-bar-myStyle " role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%</div>
+
+                </div> </div>
+                <div class="progressWrapper">
+                <p class="progress-bar-desc">SQL</p>
+                <div class="progress w-75">
+                    <div class="progress-bar  progress-bar-myStyle " role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+
+                </div> </div>
+                <div class="progressWrapper">
+                <p class="progress-bar-desc">Java</p>
+                <div class="progress w-75">
+                    <div class="progress-bar  progress-bar-myStyle " role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <p class="sectionSkillsDesc"> Tools and technologies I have been using:</p>
+                <ul class="sectionSkillsListItem">
+                    <li>IntelliJ</li>
+                    <li>Webstorm</li>
+                    <li>Figma</li>
+                    <li>Zoner photo 17</li>
+                    <li>Wordpress</li>
+                    <li>Git, Github</li>
+                    <li>Azure Data Studio</li>
+                    <li>SQL Server Management Studio</li>
+                </ul>
+                <p class="sectionSkillsDesc">Methodologies:</p>
+                <ul class="sectionSkillsListItem">
+                    <li>SCRUM (agile framework)</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionMyProjects" class="separator"></div>
+</section>
+<section>
+    <h2 class="h2Titles">My projects</h2>
+    <div class="separator"></div>
+    <p id="sectionProjectMe">...but my biggest project is Me.</p>
+</section>
+<section>
+    <div class="sectionContactMe">
+        <h2 id="sectionContactMe">Get in touch</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <form>
+                    <div class="form-group sectionContactMeFormulars">
+                        <label for="formGroupExampleInput" class="sectionContactMeLabels">Your name</label>
+                        <input type="text" class="form-control sectionContactMeForms" id="formGroupExampleInput">
+                    </div>
+                    <div class="form-group sectionContactMeFormulars">
+                        <label for="formGroupExampleInput2" class="sectionContactMeLabels">Your company</label>
+                        <input type="text" class="form-control sectionContactMeForms" id="formGroupExampleInput2">
+                    </div>
+                    <div class="form-group sectionContactMeFormulars">
+                        <label for="formGroupExampleInput3" class="sectionContactMeLabels">Your email</label>
+                        <input type="text" class="form-control sectionContactMeForms" id="formGroupExampleInput3">
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group sectionContactMeFormulars">
+                    <label for="exampleFormControlTextarea1" class="form-label sectionContactMeLabels">Message</label>
+                    <textarea class="form-control sectionContactMeMessage" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <button type="submit" class="btn sectionContactMeButton mb-2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
