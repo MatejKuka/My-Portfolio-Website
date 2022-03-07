@@ -1,7 +1,6 @@
 * {
     //outline: black 1px solid;
     font-family: 'Sen', sans-serif;
-
 }
 
 
@@ -226,7 +225,7 @@ RGB: rgb(248,187,113)
 }
 
 .sectionSkillsListItem li {
-font-size: 24px;
+    font-size: 24px;
 }
 
 #sectionProjectMe{
@@ -236,6 +235,126 @@ font-size: 24px;
     font-size: 35px;
     margin-bottom: 50px;
 }
+
+                /* PROJECT SECTION STARTS HERE */
+
+.sectionProjectItem1 {
+    width: 80%;
+    margin: 50px auto;
+    //height: 300px;
+    //background-color: #5355b7;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+.sectionProjectItem1 div a img{
+    //height: 100%;
+
+}
+
+
+/*.test  {
+    width: 1500px;
+} */
+/*Prečo toto nadtýmto mi dojebáva width toho image */
+
+
+
+
+.sectionProjectDesc1 {
+    position: relative;
+    left: -3rem;
+}
+
+.sectionProjectDesc1 h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.sectionProjectText1 {
+    height: 100px;
+    background: #245D7E;
+    border-radius: 0px 20px 0px 0px;
+    text-align: right;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    //font-size: 18px;
+    margin: 0px;
+}
+
+
+.sectionProjectTechstack1{
+    background: #F8BB71;
+    margin: 0px 0px;
+    border-radius: 0px 0px 20px 0px;
+    padding: 10px 0px;
+    text-align: right;
+}
+
+.sectionProjectTechstack1 ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: auto 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+                    /* PROJECT SECTION2 STARTS HERE */
+
+.sectionProjectItem2 {
+    width: 80%;
+    margin: 50px auto;
+    //height: 300px;
+    //background-color: #5355b7;
+    border-radius: 0px 20px 20px 0px ;
+}
+
+.sectionProjectText2 {
+    height: 100px;
+    background: #245D7E;
+    border-radius: 20px 0px 0px 0px;
+    text-align: left;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    //font-size: 18px;
+    margin: 0px;
+}
+
+
+.sectionProjectTechstack2{
+    background: #F8BB71;
+    margin: 0px 0px;
+    border-radius: 0px 0px 0px 20px;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.sectionProjectTechstack2 ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: auto 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sectionProjectDesc2 {
+    position: relative;
+    right: -2rem;
+}
+
+.sectionProjectDesc2 h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.image52{
+    position: relative;
+}
+
+                    /* PROJECT SECTION ENDS HERE */
 
 .sectionContactMe {
     height: 450px;
@@ -281,8 +400,6 @@ font-size: 24px;
     max-width: 600px;
     margin: 0px auto;
 }
-
-
 
 
 
