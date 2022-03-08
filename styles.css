@@ -1,8 +1,12 @@
 * {
     //outline: black 1px solid;
-    font-family: 'Sen', sans-serif;
+    //font-family: 'Sen', sans-serif;
 }
 
+body {
+    font-family: 'Sen', sans-serif;
+    overflow-x: hidden
+}
 
 
 /*
@@ -79,7 +83,7 @@ RGB: rgb(248,187,113)
 .slider-text {
     margin-left: 6%;
     height: 600px;
-    width: 40%;
+    width: 42%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +111,7 @@ RGB: rgb(248,187,113)
 
 .slider-text h1:nth-child(2) {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .slider-text p:nth-child(3) {
@@ -132,6 +136,8 @@ RGB: rgb(248,187,113)
     top: -60px;
     border: black 4px solid;
 }
+
+
 
 .paraSection {
     position: relative;
@@ -182,6 +188,11 @@ RGB: rgb(248,187,113)
     width: 220px;
     display: block;
     margin: 0px auto;
+    text-decoration: none;
+}
+
+.text-decoration-off {
+    text-decoration: none;
 }
 
 .btn-myStyle:hover {
@@ -206,6 +217,8 @@ RGB: rgb(248,187,113)
     font-size: 26px;
     font-weight: bold;
     text-align: center;
+    width: 70%;
+    margin: 0px auto;
 }
 
 .progress-bar-myStyle {
@@ -221,7 +234,7 @@ RGB: rgb(248,187,113)
 }
 
 .progressWrapper {
-    margin: 15px 0px;
+    margin: 15px 15px;
 }
 
 .sectionSkillsListItem li {
@@ -252,17 +265,18 @@ RGB: rgb(248,187,113)
 }
 
 
-/*.test  {
-    width: 1500px;
-} */
-/*Prečo toto nadtýmto mi dojebáva width toho image */
 
-
+.sectionProjectImage1-2 a img {
+    border-radius: 20px 20px 20px 20px;
+    width: 1000px;
+}
 
 
 .sectionProjectDesc1 {
     position: relative;
     left: -3rem;
+    width: 1200px;
+
 }
 
 .sectionProjectDesc1 h2 {
@@ -271,11 +285,11 @@ RGB: rgb(248,187,113)
 }
 
 .sectionProjectText1 {
-    height: 100px;
+    //height: 100px;
     background: #245D7E;
     border-radius: 0px 20px 0px 0px;
     text-align: right;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: white;
     font-weight: bold;
     //font-size: 18px;
@@ -300,25 +314,21 @@ RGB: rgb(248,187,113)
     font-size: 24px;
 }
 
-                    /* PROJECT SECTION2 STARTS HERE */
+                    /* PROJECT2 SECTION STARTS HERE */
 
 .sectionProjectItem2 {
-    width: 80%;
+    width: 1200px;
     margin: 50px auto;
-    //height: 300px;
-    //background-color: #5355b7;
     border-radius: 0px 20px 20px 0px ;
 }
 
 .sectionProjectText2 {
-    height: 100px;
     background: #245D7E;
     border-radius: 20px 0px 0px 0px;
     text-align: left;
     padding: 10px 20px;
     color: white;
     font-weight: bold;
-    //font-size: 18px;
     margin: 0px;
 }
 
@@ -338,11 +348,14 @@ RGB: rgb(248,187,113)
     margin: auto 10px;
     font-weight: bold;
     font-size: 24px;
+
 }
 
 .sectionProjectDesc2 {
     position: relative;
     right: -2rem;
+    z-index: 2;
+    width: 1200px;
 }
 
 .sectionProjectDesc2 h2 {
@@ -350,11 +363,7 @@ RGB: rgb(248,187,113)
     text-align: center;
 }
 
-.image52{
-    position: relative;
-}
-
-                    /* PROJECT SECTION ENDS HERE */
+                    /* PROJECT2 SECTION ENDS HERE */
 
 .sectionContactMe {
     height: 450px;
