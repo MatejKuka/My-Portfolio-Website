@@ -1,10 +1,18 @@
 * {
-    outline: grey 1px solid;
+    //outline: grey 1px solid;
 }
 
 body {
     font-family: 'Sen', sans-serif;
     overflow-x: hidden
+}
+
+ul {
+    margin: 0rem;
+}
+
+h2 {
+    margin: 0rem;
 }
 
 
@@ -240,123 +248,99 @@ RGB: rgb(248,187,113)
     font-size: 24px;
 }
 
-#sectionProjectMe{
-    text-align: center;
-    color: #F8BB71;
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 50px;
+
+
+                    /* PROJECT1 SECTION ENDS HERE */
+
+.sectionProjectWrapper {
+    margin: 4rem 10%;
 }
 
-                /* PROJECT SECTION STARTS HERE */
-
-.sectionProjectItem1 {
-    width: 80%;
-    margin: 50px auto;
-    border-radius: 20px 0px 0px 20px ;
+.sectionProjectImageWrapper1 img{
+    width: 100%;
+    border: #245D7E 1px solid;
+    border-radius: 20px 0px 0px 20px;
 }
 
-
-
-
-.sectionProjectImage1-2 a img {
-    border-radius: 20px 20px 20px 20px;
-    width: 1000px;
+.sectionProjectImageWrapper2 img{
+    width: 100%;
+    border: #245D7E 1px solid;
+    border-radius: 0px 20px 20px 0px;
 }
 
-
-.sectionProjectDesc1 {
-    position: relative;
-    left: -3rem;
-    width: 1200px;
-
-}
-
-.sectionProjectDesc1 h2 {
-    font-weight: 700;
-    text-align: center;
-}
-
-.sectionProjectText1 {
-    background: #245D7E;
-    border-radius: 0px 20px 0px 0px;
-    text-align: right;
-    padding: 10px 15px;
+.sectionProjectTextWrapper1 {
     color: white;
-    font-weight: bold;
-    margin: 0px;
 }
 
-
-.sectionProjectTechstack1{
-    background: #F8BB71;
-    margin: 0px 0px;
-    border-radius: 0px 0px 20px 0px;
-    padding: 10px 0px;
+.sectionProjectTextWrapper2 {
+    color: white;
     text-align: right;
 }
 
-.sectionProjectTechstack1 ul li {
+.sectionProjectTextWrapper1 p, .sectionProjectTextWrapper2 p{
+    font-weight: 600;
+    background-color: #245D7E;
+    padding: 1rem;
+    position: relative;
+    border-radius: 20px 20px 20px 20px ;
+    color: #F8BB71;
+}
+
+.positionText1 {
+    left: -2rem;
+}
+
+.positionText2 {
+    right: -2rem;
+}
+
+.sectionProjectTextWrapper1 h2, .sectionProjectTextWrapper2 h2{
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: black;
+    padding: 1rem;
+}
+
+.sectionProjectDescWrapper1 ul li {
     display: inline-block;
     list-style: none;
-    text-decoration: none;
-    margin: auto 10px;
-    font-weight: bold;
-    font-size: 24px;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sectionProjectDescWrapper2 ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sectionProjectUL1 {
+    margin-top: 0px;
+    padding: 1rem;
+    border-radius: 0px 0px 20px 0px;
+}
+.sectionProjectUL2 {
+    margin-top: 0px;
+    padding: 1rem;
+    border-radius: 0px 0px 0px 20px;
+    text-align: right;
+}
+
+.margins {
+    padding: 0rem;
+    margin: auto 0px;
 }
 
                     /* PROJECT2 SECTION STARTS HERE */
 
-.sectionProjectItem2 {
-    width: 1200px;
-    margin: 50px auto;
-    border-radius: 0px 20px 20px 0px ;
-}
-
-.sectionProjectText2 {
-    background: #245D7E;
-    border-radius: 20px 0px 0px 0px;
-    text-align: left;
-    padding: 10px 20px;
-    color: white;
-    font-weight: bold;
-    margin: 0px;
-}
 
 
-.sectionProjectTechstack2{
-    background: #F8BB71;
-    margin: 0px 0px;
-    border-radius: 0px 0px 0px 20px;
-    padding: 10px 0px;
-    text-align: left;
-}
-
-.sectionProjectTechstack2 ul li {
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
-    margin: auto 10px;
-    font-weight: bold;
-    font-size: 24px;
-
-}
-
-.sectionProjectDesc2 {
-    position: relative;
-    right: -2rem;
-    z-index: 2;
-    width: 1200px;
-}
-
-.sectionProjectDesc2 h2 {
-    font-weight: 700;
-    text-align: center;
-}
-
-                    /* PROJECT2 SECTION ENDS HERE */
 
 .sectionContactMe {
+    margin-top: 8rem;
     height: 450px;
     background-color: #245D7E;
 }
@@ -402,6 +386,7 @@ RGB: rgb(248,187,113)
 
 
 
+                                /*  MEDIA QUERIES  */
 
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
@@ -427,39 +412,6 @@ RGB: rgb(248,187,113)
     }
      /* NEW SECTION */
 
-    .sectionProjectDesc1 {
-        position: static;
-        width: 150%;
-    }
-
-
-    .sectionProjectText1 {
-        border-radius: 0px 20px 0px 0px;
-        text-align: left;
-    }
-
-
-    .sectionProjectTechstack1{
-        background: #F8BB71;
-        margin: 0px 0px;
-        border-radius: 0px 0px 20px 0px;
-        padding: 10px 0px;
-        text-align: left;
-    }
-
-    .sectionProjectTechstack1 ul li {
-        display: inline-block;
-        list-style: none;
-        text-decoration: none;
-        margin: auto 10px;
-        font-weight: bold;
-        font-size: 20px;
-    }
-
-    .sectionProjectImage1-2 a img {
-        border-radius: 20px 20px 20px 20px;
-        width: 100%;
-    }
 
 }
 
@@ -503,6 +455,18 @@ RGB: rgb(248,187,113)
         margin-bottom: 4%;
     }
 
+    .sectionProjectWrapper {
+        margin: 4rem 5%;
+    }
+
+    .sectionProjectTextWrapper1 h2, .sectionProjectTextWrapper2 h2{
+        font-size: 1.4rem;
+    }
+
+    .sectionContactMe {
+        height: 40rem;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -537,6 +501,53 @@ RGB: rgb(248,187,113)
     .h2Titles {
         font-size: 2.8rem;
         margin-bottom: 20px;
+    }
+
+    .sectionProjectWrapper {
+        margin: 3.3rem 10%;
+    }
+
+    .sectionProjectTextWrapper1 p{
+        position: static;
+        text-align: center;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .sectionProjectTextWrapper2 p{
+        position: static;
+        text-align: center;
+        border-radius: 20px 20px 0px 0px ;
+    }
+
+    .sectionProjectTextWrapper1 h2{
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: #F8BB71;
+    }
+
+    .sectionProjectTextWrapper2 h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .sectionProjectUL1 {
+        padding: 0.8rem 0rem;
+        border-radius: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .sectionProjectUL2 {
+        border-radius: 0px 0px 0px 0px;
+        text-align: center;
+        background-color: #F8BB71;
+    }
+
+    .sectionProjectImageWrapper1 img{
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .sectionProjectImageWrapper2 img{
+        border-radius: 0px 0px 20px 20px;
     }
 
 }
@@ -596,6 +607,10 @@ RGB: rgb(248,187,113)
 
     .sectionSkillsListItem li {
         font-size: 18px;
+    }
+
+    .sectionContactMeFormulars {
+        width: 90%;
     }
 
 }
