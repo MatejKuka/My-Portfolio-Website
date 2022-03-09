@@ -102,15 +102,6 @@ RGB: rgb(248,187,113)
     display: block;
 }
 
-/*#myNameEffect {
-    background: url("source/greensquare1.png") ;
-    background-repeat: no-repeat;
-    background-size: 390px 35px;
-    background-position-y: 30px;
-    background-position-x: 150px ;
-
-}*/
-
 
 .slider-text h2:nth-child(1) {
     font-size: 4.5rem; /*70px*/
@@ -146,13 +137,9 @@ RGB: rgb(248,187,113)
     border: black 4px solid;
 }
 
-
-
 .paraSection {
     position: relative;
 }
-
-
 
 .flex-parent {
     margin: 200px 50px 0px 50px;
@@ -196,6 +183,12 @@ RGB: rgb(248,187,113)
     display: block;
     margin: 10px auto;
     text-decoration: none;
+}
+
+.iconsProjectGitHub {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
 }
 
 .text-decoration-off {
