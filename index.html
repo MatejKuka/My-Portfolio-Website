@@ -12,6 +12,7 @@
 </head>
 <body>
 <header>
+    <div class="container ">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
         <a class="navbar-brand ms-3" id="navbarNameLogo" href="#">Matej.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,6 +27,9 @@
                     <a class="nav-link navbarItemText" href="#sectionAboutMe">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link navbarItemText" href="#sectionSkills">Skills</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link navbarItemText" href="#sectionMyProjects">My work</a>
                 </li>
                 <li class="nav-item">
@@ -34,6 +38,7 @@
             </ul>
         </div>
     </nav>
+    </div>
 </header>
 
 <div class="slider">
@@ -58,8 +63,7 @@
 </div>
 <div class="separator"></div>
 
-<section class="experienceSection">
-
+<section>
     <div class="container">
         <div class="row">
             <div class="col-lg-5 my-auto">
@@ -86,17 +90,17 @@
     </p>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <a class="text-decoration-off" href="source/MatejKukaCV.pdf" download="MatejKukaCV.pdf">
                     <button type="button" class="btn btn-myStyle btn-lg ">Download CV <img src="/source/icons8-download-48.png" alt="icon"></button>
                 </a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <a class="text-decoration-off" href="https://www.linkedin.com/in/matej-kuka-126a691b9/">
                 <button type="button"  class="btn btn-myStyle btn-lg">LinkedIn <img src="/source/icons8-linkedin-60.png" alt="icon"> </button>
                 </a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <a class="text-decoration-off" href="#sectionContactMe">
                     <button type="button" class="btn btn-myStyle btn-lg">Contact me <img src="/source/icons8-mail-48.png" alt="icon"></button>
                 </a>
@@ -104,15 +108,14 @@
         </div>
     </div>
 </section>
+<div class="separator"></div>
 
 
-<section>
-    <div class="separator"></div>
-    <div class="separator"></div>
+<section id="sectionSkills">
     <h2 class="h2Titles">My technical skills</h2>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <p class="sectionSkillsDesc"> My confidence in the languages and frameworks:</p>
 
                 <div class="progressWrapper">
@@ -160,7 +163,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <p class="sectionSkillsDesc"> Tools and technologies I have been using:</p>
                 <ul class="sectionSkillsListItem">
                     <li>IntelliJ</li>
@@ -194,7 +197,7 @@
             </a>
         </div>
 
-        <div class=" my-auto sectionProjectDesc1">
+        <div class="sectionProjectDesc1">
             <h2>Movie collection</h2>
                 <p class="sectionProjectText1">
                      This project was part of our final exam in my school. The goal was to create a software to store information about movies and assign movies to the categories + user should be able to play movie from the software.

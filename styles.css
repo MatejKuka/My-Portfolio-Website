@@ -1,6 +1,5 @@
 * {
-    //outline: black 1px solid;
-    //font-family: 'Sen', sans-serif;
+    outline: grey 1px solid;
 }
 
 body {
@@ -30,9 +29,9 @@ RGB: rgb(248,187,113)
 
 
 .slider {
-    margin-top: 65px;
+    margin-top: 80px;
     height: 800px;
-    position: relative;
+
     background-image: linear-gradient(110deg, #F8BB71 60%, #245D7E 60%);
     border-bottom: black 5px solid;
 }
@@ -75,15 +74,17 @@ RGB: rgb(248,187,113)
     width: 100%;
     background-image: url('source/statue1000x1440.png');
     background-repeat: no-repeat;
-    background-size: 520px;
-    background-position-x: 70%;
+    background-size: 35rem ; /* 570px */
+    background-position-x: 70%;  /* 570px */
     position: relative;
 }
+
 
 .slider-text {
     margin-left: 6%;
     height: 600px;
     width: 42%;
+    min-width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,33 +92,33 @@ RGB: rgb(248,187,113)
 
 .slider-text p {
     display: block;
-    width: 620px;
 }
 
-#myNameEffect {
+/*#myNameEffect {
     background: url("source/greensquare1.png") ;
     background-repeat: no-repeat;
     background-size: 390px 35px;
     background-position-y: 30px;
     background-position-x: 150px ;
 
-}
+}*/
 
 
 .slider-text h2:nth-child(1) {
-    font-size: 70px;
+    font-size: 4.5rem; /*70px*/
     font-weight: 800;
 }
 
 .slider-text h1:nth-child(2) {
-    font-size: 30px;
+    font-size: 2rem;  /* 30px */
     font-weight: 800;
 }
 
 .slider-text p:nth-child(3) {
-    font-size: 32px;
+    font-size: 2rem; /* 32px */
     font-weight: 700;
 }
+
 
 .separatorExperience{
     position: absolute;
@@ -143,9 +144,7 @@ RGB: rgb(248,187,113)
     position: relative;
 }
 
-.experienceSection {
-    height: 600px;
-}
+
 
 .flex-parent {
     margin: 200px 50px 0px 50px;
@@ -187,7 +186,7 @@ RGB: rgb(248,187,113)
     background-color: #245D7E;
     width: 220px;
     display: block;
-    margin: 0px auto;
+    margin: 10px auto;
     text-decoration: none;
 }
 
@@ -218,7 +217,7 @@ RGB: rgb(248,187,113)
     font-weight: bold;
     text-align: center;
     width: 70%;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 .progress-bar-myStyle {
@@ -254,15 +253,9 @@ RGB: rgb(248,187,113)
 .sectionProjectItem1 {
     width: 80%;
     margin: 50px auto;
-    //height: 300px;
-    //background-color: #5355b7;
     border-radius: 20px 0px 0px 20px ;
 }
 
-.sectionProjectItem1 div a img{
-    //height: 100%;
-
-}
 
 
 
@@ -285,14 +278,12 @@ RGB: rgb(248,187,113)
 }
 
 .sectionProjectText1 {
-    //height: 100px;
     background: #245D7E;
     border-radius: 0px 20px 0px 0px;
     text-align: right;
     padding: 10px 15px;
     color: white;
     font-weight: bold;
-    //font-size: 18px;
     margin: 0px;
 }
 
@@ -405,11 +396,209 @@ RGB: rgb(248,187,113)
 }
 
 .sectionContactMeFormulars {
-    //width: 85%;
     max-width: 600px;
     margin: 0px auto;
 }
 
+
+
+
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+    #sectionAboutMeImage {
+        width: 350px;
+    }
+
+    .sectionAboutMeDesc p:nth-child(1) {
+        font-size: 22px;
+    }
+    .sectionAboutMeDesc p:nth-child(2) {
+        font-size: 22px;
+    }
+
+    .sectionAboutMeDesc ul li {
+        font-size: 24px;
+    }
+     /* NEW SECTION */
+
+    .sectionProjectDesc1 {
+        position: static;
+        width: 150%;
+    }
+
+
+    .sectionProjectText1 {
+        border-radius: 0px 20px 0px 0px;
+        text-align: left;
+    }
+
+
+    .sectionProjectTechstack1{
+        background: #F8BB71;
+        margin: 0px 0px;
+        border-radius: 0px 0px 20px 0px;
+        padding: 10px 0px;
+        text-align: left;
+    }
+
+    .sectionProjectTechstack1 ul li {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        margin: auto 10px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .sectionProjectImage1-2 a img {
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+
+    .separator {
+        height: 80px;
+    }
+
+    .slider-text h1:nth-child(2) {
+        font-size: 1.7rem;
+    }
+
+    .slider-text p:nth-child(3) {
+        font-size: 2rem; /* 32px */
+    }
+
+    .slider-text h2:nth-child(1) {
+        font-size: 3.2rem; /*70px*/
+    }
+
+    #imageSlider {
+        background-size: 25rem; /* 570px, 35rem */
+        background-position-x: 70%;  /* 570px */
+        background-position-y: 85%;  /* 570px */
+
+    }
+
+    .slider {
+        height: 40rem;
+    }
+
+    .separatorExperience{
+        font-size: calc(1.5rem + 3vw);
+        padding: 1% 0px;
+        top: -30px;
+    }
+    #sectionAboutMeImage {
+        margin: 0px 25%;
+        margin-bottom: 4%;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+
+    .slider-text h1:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .slider-text p:nth-child(3) {
+        font-size: 1.7rem; /* 32px */
+    }
+
+    .slider-text h2:nth-child(1) {
+        font-size: 3.0rem; /*70px*/
+    }
+
+    .slider-text {
+        height: 400px;
+    }
+
+    #sectionAboutMeImage {
+        margin: 0px 17%;
+        margin-bottom: 4%;
+    }
+
+    #sectionAboutMeKnowMore {
+        width: 80%;
+        font-size: 22px;
+    }
+
+    .h2Titles {
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    .slider-text h2:nth-child(1) {
+        font-size: calc(1.1rem + 3vw);
+    }
+
+    .slider-text h1:nth-child(2) {
+        font-size: calc(0.5rem + 3.2vw);
+    }
+
+    .slider-text p:nth-child(3) {
+        font-size: calc(0.5rem + 2.5vw);
+    }
+    .slider {
+        height: 35rem;
+    }
+
+    .slider {
+        background-image: linear-gradient(90deg, #F8BB71 60%, #245D7E 60%);
+    }
+
+    #imageSlider {
+        background-size: 18rem; /* 570px, 35rem */
+    }
+
+    .sectionAboutMeDesc p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .sectionAboutMeDesc p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .sectionAboutMeDesc ul li {
+        font-size: 20px;
+    }
+
+    #sectionAboutMeImage {
+        width: 18rem;
+        margin: 0px 17%;
+        margin-bottom: 4%;
+    }
+
+    .h2Titles {
+        font-size: calc(1.1rem + 3.5vw);
+        margin-bottom: 20px;
+    }
+
+    .sectionSkillsDesc {
+        font-size: calc(0.5rem + 3.5vw);
+    }
+
+    .sectionSkillsListItem li {
+        font-size: 18px;
+    }
+
+}
 
 
 
