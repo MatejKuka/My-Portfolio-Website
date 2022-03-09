@@ -1,5 +1,5 @@
 * {
-    //outline: grey 1px solid;
+    outline: grey 1px solid;
 }
 
 body {
@@ -557,6 +557,7 @@ RGB: rgb(248,187,113)
 
     .slider-text h2:nth-child(1) {
         font-size: calc(1.1rem + 3vw);
+        margin-bottom: 1rem;
     }
 
     .slider-text h1:nth-child(2) {
@@ -575,7 +576,7 @@ RGB: rgb(248,187,113)
     }
 
     #imageSlider {
-        background-size: 18rem; /* 570px, 35rem */
+        background-size: 18rem;
     }
 
     .sectionAboutMeDesc p:nth-child(1) {
@@ -612,7 +613,6 @@ RGB: rgb(248,187,113)
     .sectionContactMeFormulars {
         width: 90%;
     }
-
 }
 
 
