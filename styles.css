@@ -1,5 +1,5 @@
 * {
-    outline: grey 1px solid;
+    //outline: grey 1px solid;
 }
 
 body {
@@ -34,6 +34,8 @@ RGB: rgb(248,187,113)
     margin-right: 10px;
     font-weight: bolder;
 }
+
+
 
 
 .slider {
@@ -464,6 +466,23 @@ RGB: rgb(248,187,113)
 
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
+
+    .collapse-items-MyStyle {
+        margin: 0.2rem 2rem;
+    }
+
+    #contactItem {
+        background-color: #f8f9fa;
+        color: #F8BB71;
+        margin: 0rem;
+        border-radius: 6px;
+        padding: 0.3rem 0px;
+    }
+
+    #contactItem:hover {
+        background-color: #f8f9fa;
+        color: #245D7E;
+    }
 
     .slider-text h1:nth-child(2) {
         font-size: 1.5rem;
