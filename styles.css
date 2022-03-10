@@ -1,5 +1,5 @@
 * {
-    //outline: grey 1px solid;
+    outline: grey 1px solid;
 }
 
 body {
@@ -15,28 +15,11 @@ h2 {
     margin: 0rem;
 }
 
-
-/*
-Background:
-HEX: #245D7E
-   RGB: rgb(36,93,126)
-*/
-/*
-text:
-HEX: #F8BB71
-RGB: rgb(248,187,113)
- */
-
-
-
 .navbarItemText {
     font-size: 24px;
     margin-right: 10px;
     font-weight: bolder;
 }
-
-
-
 
 .slider {
     margin-top: 80px;
@@ -84,8 +67,8 @@ RGB: rgb(248,187,113)
     width: 100%;
     background-image: url('source/statue1000x1440.png');
     background-repeat: no-repeat;
-    background-size: 35rem ; /* 570px */
-    background-position-x: 70%;  /* 570px */
+    background-size: 35rem ;
+    background-position-x: 70%;
     position: relative;
 }
 
@@ -106,17 +89,17 @@ RGB: rgb(248,187,113)
 
 
 .slider-text h2:nth-child(1) {
-    font-size: 4.5rem; /*70px*/
+    font-size: 4.5rem;
     font-weight: 800;
 }
 
 .slider-text h1:nth-child(2) {
-    font-size: 2rem;  /* 30px */
+    font-size: 2rem;
     font-weight: 800;
 }
 
 .slider-text p:nth-child(3) {
-    font-size: 2rem; /* 32px */
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -242,10 +225,6 @@ RGB: rgb(248,187,113)
 .sectionSkillsListItem li {
     font-size: 24px;
 }
-
-
-
-                    /* PROJECT1 SECTION ENDS HERE */
 
 .sectionProjectWrapper {
     margin: 4rem 10%;
@@ -377,46 +356,8 @@ RGB: rgb(248,187,113)
     margin: 0px auto;
 }
 
-.video1 {
-    background-image: url('source/auroraProjectWebsite.png');
-    background-size: 100% 100%;
-    border: #245D7E 1px solid;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: contain;
-}
-
-.thevideo1 {
-    height: 100%;
-    width: 100%;
-    border-radius: 20px 0px 0px 20px;
-}
-
-.video2 {
-    background-image: url('source/pickGameProject.png');
-    background-size: 100% 100%;
-    border: #245D7E 1px solid;
-    border-radius: 0px 20px 20px 0px;
-    object-fit: contain;
-}
-
-.thevideo2 {
-    height: 100%;
-    width: 100%;
-    border-radius: 0px 20px 20px 0px;
-}
-
-
-
-
                                 /*  MEDIA QUERIES  */
 
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (max-width: 1400px) {
-
-}
-
-/* X-Large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) {
     #sectionAboutMeImage {
         width: 350px;
@@ -432,12 +373,8 @@ RGB: rgb(248,187,113)
     .sectionAboutMeDesc ul li {
         font-size: 24px;
     }
-     /* NEW SECTION */
-
-
 }
 
-/* Large devices (desktops, 992px and up)*/
 @media (max-width: 992px) {
 
     .separator {
@@ -460,7 +397,6 @@ RGB: rgb(248,187,113)
         background-size: 25rem; /* 570px, 35rem */
         background-position-x: 70%;  /* 570px */
         background-position-y: 85%;  /* 570px */
-
     }
 
     .slider {
@@ -472,6 +408,7 @@ RGB: rgb(248,187,113)
         padding: 1% 0px;
         top: -30px;
     }
+
     #sectionAboutMeImage {
         margin: 0px 25%;
         margin-bottom: 4%;
@@ -491,9 +428,7 @@ RGB: rgb(248,187,113)
 
 }
 
-/* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
-
     .collapse-items-MyStyle {
         margin: 0.2rem 2rem;
     }
@@ -591,7 +526,6 @@ RGB: rgb(248,187,113)
 
 }
 
-/*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
 
     .slider-text h2:nth-child(1) {
