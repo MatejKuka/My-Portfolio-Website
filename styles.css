@@ -379,6 +379,35 @@ RGB: rgb(248,187,113)
     margin: 0px auto;
 }
 
+.video1 {
+    background-image: url('source/auroraProjectWebsite.png');
+    background-size: 100% 100%;
+    border: #245D7E 1px solid;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: contain;
+}
+
+.thevideo1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.video2 {
+    background-image: url('source/pickGameProject.png');
+    background-size: 100% 100%;
+    border: #245D7E 1px solid;
+    border-radius: 0px 20px 20px 0px;
+    object-fit: contain;
+}
+
+.thevideo2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
 
 
                                 /*  MEDIA QUERIES  */
