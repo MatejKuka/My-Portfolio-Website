@@ -1,10 +1,9 @@
-* {
-    outline: grey 1px solid;
-}
+
 
 body {
     font-family: 'Sen', sans-serif;
-    overflow-x: hidden
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
 }
 
 ul {
@@ -14,6 +13,8 @@ ul {
 h2 {
     margin: 0rem;
 }
+
+
 
 .navbarItemText {
     font-size: 24px;
@@ -30,7 +31,7 @@ h2 {
 }
 
 #navbarNameLogo {
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
@@ -39,8 +40,8 @@ h2 {
     color: #F8BB71;
     margin: auto 10px;
     border-radius: 6px;
-    padding: 8px 12px;
-    font-size: 24px;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.6rem;
     font-weight: 800;
 }
 
@@ -72,11 +73,33 @@ h2 {
     position: relative;
 }
 
+#glassesImg {
+    position: absolute;
+    top: 23%;
+    right: calc(26.7% + 5vw); /* 32.3% */
+
+    animation-name: flow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flow{
+    50%{
+        transform: translateY(30px);
+    }
+}
+
+#brainDamageImg {
+    position: absolute;
+    right: calc(15% + 4vw);
+    bottom: 7%;
+    transform: rotate(-20deg);
+}
 
 .slider-text {
     margin-left: 6%;
     height: 600px;
-    width: 42%;
+    width: 45%;
     min-width: 10%;
     display: flex;
     flex-direction: column;
@@ -89,17 +112,19 @@ h2 {
 
 
 .slider-text h2:nth-child(1) {
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-weight: 800;
 }
 
 .slider-text h1:nth-child(2) {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     font-weight: 800;
 }
 
 .slider-text p:nth-child(3) {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 700;
 }
 
@@ -108,16 +133,16 @@ h2 {
     position: absolute;
     display: block;
     text-align: center;
-    width: 50%;
+    width: 40%;
     background-color:  #245D7E;
-    font-size: 70px;
+    font-size: 4.5rem;
     color: #F8BB71;
-    padding: 15px 0px;
+    padding: 0.6rem 0px;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 20px;
     text-transform: uppercase;
-    right: 25%;
+    right: 30%;
     top: -60px;
     border: black 4px solid;
 }
@@ -126,9 +151,6 @@ h2 {
     position: relative;
 }
 
-.flex-parent {
-    margin: 200px 50px 0px 50px;
-}
 
 .separator  {
     height: 150px;
@@ -136,26 +158,26 @@ h2 {
 
 #sectionAboutMeImage {
     border-radius: 25px;
-    width: 450px;
+    width: 30rem;
 }
 
 .sectionAboutMeDesc p:nth-child(1) {
-    font-size: 26px;
+    font-size: 1.8rem;
 }
 
 .sectionAboutMeDesc p:nth-child(2) {
-    font-size: 26px;
+    font-size: 1.8rem;
 }
 
 .sectionAboutMeDesc ul li {
-    font-size: 27px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 #sectionAboutMeKnowMore {
-    margin: 30px auto;
+    margin: 2rem auto;
     width: 60%;
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
@@ -166,7 +188,7 @@ h2 {
     background-color: #245D7E;
     width: 220px;
     display: block;
-    margin: 10px auto;
+    margin: 0.8rem auto;
     text-decoration: none;
 }
 
@@ -193,17 +215,17 @@ h2 {
     text-align: center;
     color: #F8BB71;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 3.3rem;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 
 .sectionSkillsDesc {
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     width: 70%;
-    margin: 10px auto;
+    margin: 1rem auto;
 }
 
 .progress-bar-myStyle {
@@ -215,15 +237,15 @@ h2 {
 .progress-bar-desc {
     font-weight: 700;
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .progressWrapper {
-    margin: 15px 15px;
+    margin: 1rem;
 }
 
 .sectionSkillsListItem li {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .sectionProjectWrapper {
@@ -258,6 +280,7 @@ h2 {
     position: relative;
     border-radius: 20px 20px 20px 20px ;
     color: #F8BB71;
+    font-size: 1.2rem;
 }
 
 .positionText1 {
@@ -356,7 +379,19 @@ h2 {
     margin: 0px auto;
 }
 
-                                /*  MEDIA QUERIES  */
+/*  MEDIA QUERIES  */
+@media (min-width: 1900px){
+    #brainDamageImg {
+        right: calc(17% + 4vw);
+    }
+}
+
+
+@media (max-width: 1400px) {
+    #brainDamageImg {
+        right: calc(12% + 4vw);
+    }
+}
 
 @media (max-width: 1200px) {
     #sectionAboutMeImage {
@@ -373,7 +408,10 @@ h2 {
     .sectionAboutMeDesc ul li {
         font-size: 24px;
     }
-}
+    #glassesImg {
+
+        right: calc(28% + 5vw);
+    }
 
 @media (max-width: 992px) {
 
@@ -424,6 +462,14 @@ h2 {
 
     .sectionContactMe {
         height: 40rem;
+    }
+
+    #glassesImg {
+        display: none;
+    }
+
+    #brainDamageImg {
+        display: none;
     }
 
 }
@@ -566,7 +612,7 @@ h2 {
 
     #sectionAboutMeImage {
         width: 18rem;
-        margin: 0px 17%;
+        margin: 1.2rem 17%;
         margin-bottom: 4%;
     }
 
@@ -586,6 +632,7 @@ h2 {
     .sectionContactMeFormulars {
         width: 90%;
     }
+}
 }
 
 
