@@ -89,6 +89,37 @@ h2 {
     }
 }
 
+.slide-in-right {
+    -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+    animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+
+@-webkit-keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
 #brainDamageImg {
     position: absolute;
     right: calc(15% + 4vw);
@@ -499,6 +530,10 @@ background-color: orange;
 }
 
 @media (max-width: 768px) {
+
+    .marginMobile {
+        margin: 0rem 2rem;
+    }
 
     #imageSlider {
         background-position-x: 70%;
