@@ -99,7 +99,7 @@ h2 {
 .slider-text {
     margin-left: 6%;
     height: 600px;
-    width: 45%;
+    width: 46%;
     min-width: 10%;
     display: flex;
     flex-direction: column;
@@ -117,14 +117,14 @@ h2 {
 }
 
 .slider-text h1:nth-child(2) {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-weight: 800;
 }
 
 .slider-text p:nth-child(3) {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     font-weight: 700;
 }
 
