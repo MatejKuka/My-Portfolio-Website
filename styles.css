@@ -379,6 +379,20 @@ h2 {
     margin: 0px auto;
 }
 
+.contactMeDesc {
+    text-align: center;
+    color: #F8BB71;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contactMeDesc span {
+background-color: orange;
+    color: #245D7E;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+}
+
 /*  MEDIA QUERIES  */
 @media (min-width: 1900px){
     #brainDamageImg {
