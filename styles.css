@@ -76,7 +76,7 @@ h2 {
 #glassesImg {
     position: absolute;
     top: 23%;
-    right: calc(26.7% + 5vw); /* 32.3% */
+    right: calc(26.8% + 5.2vw); /* 32.3% */
 
     animation-name: flow;
     animation-duration: 5s;
