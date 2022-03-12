@@ -336,8 +336,9 @@ h2 {
 
 .sectionContactMe {
     margin-top: 8rem;
-    height: 450px;
     background-color: #245D7E;
+    padding-bottom: 5rem;
+
 }
 
 .sectionContactMe h2{
@@ -351,6 +352,7 @@ h2 {
 
 .sectionContactMeForms {
     border-radius: 10px;
+
 }
 
 .sectionContactMeLabels {
@@ -361,7 +363,7 @@ h2 {
 }
 
 .sectionContactMeButton {
-    background-color: limegreen;
+    background-color: #1b8519;
     color: white;
     font-weight: bold;
     font-size: 24px;
@@ -381,6 +383,7 @@ h2 {
 
 .contactMeDesc {
     text-align: center;
+    color: #F8BB71;
     color: #F8BB71;
     font-size: 1.3rem;
     font-weight: bold;
@@ -425,6 +428,9 @@ background-color: orange;
     #glassesImg {
 
         right: calc(28% + 5vw);
+    }
+    .sectionContactMeFormulars {
+        margin: 0.3rem 1rem;
     }
 
 @media (max-width: 992px) {
@@ -486,9 +492,19 @@ background-color: orange;
         display: none;
     }
 
+    .sectionContactMeFormulars {
+        margin: auto;
+    }
+
 }
 
 @media (max-width: 768px) {
+
+    #imageSlider {
+        background-position-x: 70%;
+        background-position-y: 100%;
+    }
+
     .collapse-items-MyStyle {
         margin: 0.2rem 2rem;
     }
@@ -625,9 +641,10 @@ background-color: orange;
     }
 
     #sectionAboutMeImage {
-        width: 18rem;
-        margin: 1.2rem 17%;
-        margin-bottom: 4%;
+        width: calc(15rem + 10vw);
+        display: block;
+        margin: 2rem auto;
+
     }
 
     .h2Titles {
@@ -646,8 +663,29 @@ background-color: orange;
     .sectionContactMeFormulars {
         width: 90%;
     }
+    .sectionContactMe {
+        height: 45rem;
+    }
+    #sectionContactMe {
+        font-size: 2.1rem;
+    }
+
 }
 }
+@media (max-width: 320px) {
+    .separatorExperience {
+        font-size: 1.5rem;
+
+    }
+    #sectionAboutMeImage {
+        width: 15rem;
+        margin: 2rem auto;
+    }
+    .sectionContactMe {
+        height: 50rem;
+    }
+}
+
 
 
 
