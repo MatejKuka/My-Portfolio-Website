@@ -1,11 +1,26 @@
-* {
-    outline: 1px dashed black;
-}
-
 body {
     font-family: 'Sen', sans-serif;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+}
+
+h1::selection {
+    background-color: lawngreen;
+}
+
+li::selection {
+    background-color: lawngreen;
+}
+
+p::selection {
+    background-color: lawngreen;
+}
+
+h2::selection {
+    background-color: lawngreen;
+}
+a::selection {
+    background-color: lawngreen;
 }
 
 ul {
@@ -15,8 +30,6 @@ ul {
 h2 {
     margin: 0rem;
 }
-
-
 
 .navbarItemText {
     font-size: 24px;
@@ -78,7 +91,7 @@ h2 {
 
 #brainDamageImg {
     position: absolute;
-    left: 74vw;
+    left: 75%;
     bottom: 7%;
     width: 10vh;
     transform: rotate(-20deg);
@@ -114,6 +127,61 @@ h2 {
 .slider-text p:nth-child(3) {
     font-size: 1.8vw;
     font-weight: 700;
+}
+
+.slide-in-right {
+    -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+    animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+
+@-webkit-keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.float-animation-1 {
+    animation: floating 5s ease-in-out infinite;
+}
+.float-animation-2 {
+    animation: floating 5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.float-animation-3 {
+    animation: floating 5s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+
+@keyframes floating {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 
@@ -409,8 +477,13 @@ h2 {
 
 
 @media (max-width: 1400px) {
+    #imageSlider {
+        background-image: url('source/statue1000x1440m.png');
+        background-size: 60vh ;
+    }
+
     #brainDamageImg {
-        right: calc(12% + 4vw);
+        left: 78%;
     }
 }
 
@@ -445,22 +518,14 @@ h2 {
         }
 
         .slider-text p:nth-child(3) {
-            font-size: 2rem; /* 32px */
+            font-size: 2rem;
         }
 
         .slider-text h2:nth-child(1) {
-            font-size: 3.2rem; /*70px*/
+            font-size: 3.2rem;
         }
 
-        #imageSlider {
-            background-size: 25rem; /* 570px, 35rem */
-            background-position-x: 70%;  /* 570px */
-            background-position-y: 85%;  /* 570px */
-        }
 
-        .slider {
-            height: 40rem;
-        }
 
         .separatorExperience{
             font-size: calc(1.5rem + 3vw);
@@ -484,7 +549,7 @@ h2 {
         .sectionContactMe {
             height: 40rem;
         }
-        
+
         #brainDamageImg {
             display: none;
         }
@@ -528,11 +593,11 @@ h2 {
         }
 
         .slider-text p:nth-child(3) {
-            font-size: 1.7rem; /* 32px */
+            font-size: 1.7rem;
         }
 
         .slider-text h2:nth-child(1) {
-            font-size: 3.0rem; /*70px*/
+            font-size: 3.0rem;
         }
 
         .slider-text {
@@ -604,6 +669,16 @@ h2 {
     }
 
     @media (max-width: 576px) {
+        .sliderIcons a img {
+            width: 15vw;
+        }
+        .sliderIcons {
+            top: 10%;
+        }
+        .slider {
+
+            background-image: linear-gradient(110deg, #F8BB71 85vw, #245D7E 85vw);
+        }
 
         .slider-text h2:nth-child(1) {
             font-size: calc(1.1rem + 3vw);
@@ -618,9 +693,6 @@ h2 {
             font-size: calc(0.5rem + 2.5vw);
         }
 
-        .slider {
-            background-image: linear-gradient(90deg, #F8BB71 60%, #245D7E 60%);
-        }
 
         #imageSlider {
             background-size: 18rem;
@@ -673,7 +745,6 @@ h2 {
 @media (max-width: 320px) {
     .separatorExperience {
         font-size: 1.5rem;
-
     }
     #sectionAboutMeImage {
         width: 15rem;
