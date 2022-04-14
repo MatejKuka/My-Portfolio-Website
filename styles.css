@@ -362,7 +362,7 @@ h2 {
     margin: auto 0px;
 }
 
-                    /* PROJECT2 SECTION STARTS HERE */
+/* PROJECT2 SECTION STARTS HERE */
 
 
 .sectionContactMe {
@@ -421,7 +421,7 @@ h2 {
 }
 
 .contactMeDesc span {
-background-color: orange;
+    background-color: orange;
     color: #245D7E;
     border-radius: 5px;
     padding: 0.5rem 0.5rem;
@@ -464,248 +464,246 @@ background-color: orange;
         margin: 0.3rem 1rem;
     }
 
-@media (max-width: 992px) {
+    @media (max-width: 992px) {
 
-    .separator {
-        height: 80px;
-    }
+        .separator {
+            height: 80px;
+        }
 
-    .slider-text h1:nth-child(2) {
-        font-size: 1.7rem;
-    }
+        .slider-text h1:nth-child(2) {
+            font-size: 1.7rem;
+        }
 
-    .slider-text p:nth-child(3) {
-        font-size: 2rem; /* 32px */
-    }
+        .slider-text p:nth-child(3) {
+            font-size: 2rem; /* 32px */
+        }
 
-    .slider-text h2:nth-child(1) {
-        font-size: 3.2rem; /*70px*/
-    }
+        .slider-text h2:nth-child(1) {
+            font-size: 3.2rem; /*70px*/
+        }
 
-    #imageSlider {
-        background-size: 25rem; /* 570px, 35rem */
-        background-position-x: 70%;  /* 570px */
-        background-position-y: 85%;  /* 570px */
-    }
+        #imageSlider {
+            background-size: 25rem; /* 570px, 35rem */
+            background-position-x: 70%;  /* 570px */
+            background-position-y: 85%;  /* 570px */
+        }
 
-    .slider {
-        height: 40rem;
-    }
+        .slider {
+            height: 40rem;
+        }
 
-    .separatorExperience{
-        font-size: calc(1.5rem + 3vw);
-        padding: 1% 0px;
-        top: -30px;
-    }
+        .separatorExperience{
+            font-size: calc(1.5rem + 3vw);
+            padding: 1% 0px;
+            top: -30px;
+        }
 
-    #sectionAboutMeImage {
-        margin: 0px 25%;
-        margin-bottom: 4%;
-    }
+        #sectionAboutMeImage {
+            margin: 0px 25%;
+            margin-bottom: 4%;
+        }
 
-    .sectionProjectWrapper {
-        margin: 4rem 5%;
-    }
+        .sectionProjectWrapper {
+            margin: 4rem 5%;
+        }
 
-    .sectionProjectTextWrapper1 h2, .sectionProjectTextWrapper2 h2{
-        font-size: 1.4rem;
-    }
+        .sectionProjectTextWrapper1 h2, .sectionProjectTextWrapper2 h2{
+            font-size: 1.4rem;
+        }
 
-    .sectionContactMe {
-        height: 40rem;
-    }
+        .sectionContactMe {
+            height: 40rem;
+        }
 
-    #glassesImg {
-        display: none;
-    }
+        #glassesImg {
+            display: none;
+        }
 
-    #brainDamageImg {
-        display: none;
-    }
+        #brainDamageImg {
+            display: none;
+        }
 
-    .sectionContactMeFormulars {
-        margin: auto;
-    }
-
-}
-
-@media (max-width: 768px) {
-
-    .marginMobile {
-        margin: 0rem 2rem;
-    }
-
-    #imageSlider {
-        background-position-x: 70%;
-        background-position-y: 100%;
-    }
-
-    .collapse-items-MyStyle {
-        margin: 0.2rem 2rem;
-    }
-
-    #contactItem {
-        background-color: #f8f9fa;
-        color: #F8BB71;
-        margin: 0rem;
-        border-radius: 6px;
-        padding: 0.3rem 0px;
-    }
-
-    #contactItem:hover {
-        background-color: #f8f9fa;
-        color: #245D7E;
-    }
-
-    .slider-text h1:nth-child(2) {
-        font-size: 1.5rem;
-    }
-
-    .slider-text p:nth-child(3) {
-        font-size: 1.7rem; /* 32px */
-    }
-
-    .slider-text h2:nth-child(1) {
-        font-size: 3.0rem; /*70px*/
-    }
-
-    .slider-text {
-        height: 400px;
-    }
-
-    #sectionAboutMeImage {
-        margin: 0px 17%;
-        margin-bottom: 4%;
-    }
-
-    #sectionAboutMeKnowMore {
-        width: 80%;
-        font-size: 22px;
-    }
-
-    .h2Titles {
-        font-size: 2.8rem;
-        margin-bottom: 20px;
-    }
-
-    .sectionProjectWrapper {
-        margin: 3.3rem 10%;
-    }
-
-    .sectionProjectTextWrapper1 p{
-        position: static;
-        text-align: center;
-        border-radius: 0px 0px 20px 20px;
-    }
-
-    .sectionProjectTextWrapper2 p{
-        position: static;
-        text-align: center;
-        border-radius: 20px 20px 0px 0px ;
-    }
-
-    .sectionProjectTextWrapper1 h2{
-        font-size: 1.8rem;
-        text-align: center;
-        background-color: #F8BB71;
-    }
-
-    .sectionProjectTextWrapper2 h2{
-        font-size: 1.8rem;
-        text-align: center;
-    }
-
-    .sectionProjectUL1 {
-        padding: 0.8rem 0rem;
-        border-radius: 0px 0px 0px 0px;
-        text-align: center;
-    }
-
-    .sectionProjectUL2 {
-        border-radius: 0px 0px 0px 0px;
-        text-align: center;
-        background-color: #F8BB71;
-    }
-
-    .sectionProjectImageWrapper1 img{
-        border-radius: 20px 20px 0px 0px;
-    }
-
-    .sectionProjectImageWrapper2 img{
-        border-radius: 0px 0px 20px 20px;
-    }
-
-}
-
-@media (max-width: 576px) {
-
-    .slider-text h2:nth-child(1) {
-        font-size: calc(1.1rem + 3vw);
-        margin-bottom: 1rem;
-    }
-
-    .slider-text h1:nth-child(2) {
-        font-size: calc(0.5rem + 3.2vw);
-    }
-
-    .slider-text p:nth-child(3) {
-        font-size: calc(0.5rem + 2.5vw);
-    }
-    .slider {
-        height: 35rem;
-    }
-
-    .slider {
-        background-image: linear-gradient(90deg, #F8BB71 60%, #245D7E 60%);
-    }
-
-    #imageSlider {
-        background-size: 18rem;
-    }
-
-    .sectionAboutMeDesc p:nth-child(1) {
-        font-size: 18px;
-    }
-
-    .sectionAboutMeDesc p:nth-child(2) {
-        font-size: 18px;
-    }
-
-    .sectionAboutMeDesc ul li {
-        font-size: 20px;
-    }
-
-    #sectionAboutMeImage {
-        width: calc(15rem + 10vw);
-        display: block;
-        margin: 2rem auto;
+        .sectionContactMeFormulars {
+            margin: auto;
+        }
 
     }
 
-    .h2Titles {
-        font-size: calc(1.1rem + 3.5vw);
-        margin-bottom: 20px;
+    @media (max-width: 768px) {
+
+        .marginMobile {
+            margin: 0rem 2rem;
+        }
+
+        #imageSlider {
+            background-position-x: 70%;
+            background-position-y: 100%;
+        }
+
+        .collapse-items-MyStyle {
+            margin: 0.2rem 2rem;
+        }
+
+        #contactItem {
+            background-color: #f8f9fa;
+            color: #F8BB71;
+            margin: 0rem;
+            border-radius: 6px;
+            padding: 0.3rem 0px;
+        }
+
+        #contactItem:hover {
+            background-color: #f8f9fa;
+            color: #245D7E;
+        }
+
+        .slider-text h1:nth-child(2) {
+            font-size: 1.5rem;
+        }
+
+        .slider-text p:nth-child(3) {
+            font-size: 1.7rem; /* 32px */
+        }
+
+        .slider-text h2:nth-child(1) {
+            font-size: 3.0rem; /*70px*/
+        }
+
+        .slider-text {
+            height: 400px;
+        }
+
+        #sectionAboutMeImage {
+            margin: 0px 17%;
+            margin-bottom: 4%;
+        }
+
+        #sectionAboutMeKnowMore {
+            width: 80%;
+            font-size: 22px;
+        }
+
+        .h2Titles {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .sectionProjectWrapper {
+            margin: 3.3rem 10%;
+        }
+
+        .sectionProjectTextWrapper1 p{
+            position: static;
+            text-align: center;
+            border-radius: 0px 0px 20px 20px;
+        }
+
+        .sectionProjectTextWrapper2 p{
+            position: static;
+            text-align: center;
+            border-radius: 20px 20px 0px 0px ;
+        }
+
+        .sectionProjectTextWrapper1 h2{
+            font-size: 1.8rem;
+            text-align: center;
+            background-color: #F8BB71;
+        }
+
+        .sectionProjectTextWrapper2 h2{
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .sectionProjectUL1 {
+            padding: 0.8rem 0rem;
+            border-radius: 0px 0px 0px 0px;
+            text-align: center;
+        }
+
+        .sectionProjectUL2 {
+            border-radius: 0px 0px 0px 0px;
+            text-align: center;
+            background-color: #F8BB71;
+        }
+
+        .sectionProjectImageWrapper1 img{
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        .sectionProjectImageWrapper2 img{
+            border-radius: 0px 0px 20px 20px;
+        }
+
     }
 
-    .sectionSkillsDesc {
-        font-size: calc(0.5rem + 3.5vw);
-    }
+    @media (max-width: 576px) {
 
-    .sectionSkillsListItem li {
-        font-size: 18px;
-    }
+        .slider-text h2:nth-child(1) {
+            font-size: calc(1.1rem + 3vw);
+            margin-bottom: 1rem;
+        }
 
-    .sectionContactMeFormulars {
-        width: 90%;
-    }
-    .sectionContactMe {
-        height: 45rem;
-    }
-    #sectionContactMe {
-        font-size: 2.1rem;
-    }
+        .slider-text h1:nth-child(2) {
+            font-size: calc(0.5rem + 3.2vw);
+        }
 
-}
+        .slider-text p:nth-child(3) {
+            font-size: calc(0.5rem + 2.5vw);
+        }
+        
+        .slider {
+            background-image: linear-gradient(90deg, #F8BB71 60%, #245D7E 60%);
+            height: 35rem;
+        }
+
+        #imageSlider {
+            background-size: 18rem;
+        }
+
+        .sectionAboutMeDesc p:nth-child(1) {
+            font-size: 18px;
+        }
+
+        .sectionAboutMeDesc p:nth-child(2) {
+            font-size: 18px;
+        }
+
+        .sectionAboutMeDesc ul li {
+            font-size: 20px;
+        }
+
+        #sectionAboutMeImage {
+            width: calc(15rem + 10vw);
+            display: block;
+            margin: 2rem auto;
+
+        }
+
+        .h2Titles {
+            font-size: calc(1.1rem + 3.5vw);
+            margin-bottom: 20px;
+        }
+
+        .sectionSkillsDesc {
+            font-size: calc(0.5rem + 3.5vw);
+        }
+
+        .sectionSkillsListItem li {
+            font-size: 18px;
+        }
+
+        .sectionContactMeFormulars {
+            width: 90%;
+        }
+        .sectionContactMe {
+            height: 45rem;
+        }
+        #sectionContactMe {
+            font-size: 2.1rem;
+        }
+
+    }
 }
 @media (max-width: 320px) {
     .separatorExperience {
