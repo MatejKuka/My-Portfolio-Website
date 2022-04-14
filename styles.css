@@ -1,4 +1,6 @@
-
+* {
+    outline: 1px dashed black;
+}
 
 body {
     font-family: 'Sen', sans-serif;
@@ -23,11 +25,14 @@ h2 {
 }
 
 .slider {
-    margin-top: 80px;
-    height: 800px;
-
-    background-image: linear-gradient(110deg, #F8BB71 60%, #245D7E 60%);
+    margin-top: 85px;
+    height: 90vh; /* 800px */
+    background-image: linear-gradient(110deg, #F8BB71 65%, #245D7E 65%);
     border-bottom: black 5px solid;
+}
+
+.row {
+    height: 100%
 }
 
 #navbarNameLogo {
@@ -52,7 +57,7 @@ h2 {
 .sliderIcons {
     position: absolute;
     right: 1%;
-    top: 3%;
+    top: 8%;
 }
 .sliderIcons a {
     display: block;
@@ -65,28 +70,12 @@ h2 {
 
 #imageSlider {
     height: 100%;
-    width: 100%;
-    background-image: url('source/statue1000x1440.png');
+    background-image: url('source/statue1500x1990m.png');
     background-repeat: no-repeat;
-    background-size: 35rem ;
-    background-position-x: 70%;
+    background-size: 65% ;
+    background-position-x: 15%;
+    background-position-y: 100%;
     position: relative;
-}
-
-#glassesImg {
-    position: absolute;
-    top: 23%;
-    right: calc(26.8% + 5.2vw); /* 32.3% */
-
-    animation-name: flow;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes flow{
-    50%{
-        transform: translateY(30px);
-    }
 }
 
 .slide-in-right {
@@ -94,44 +83,19 @@ h2 {
     animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
 }
 
-@-webkit-keyframes slide-in-right {
-    0% {
-        -webkit-transform: translateX(1000px);
-        transform: translateX(1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes slide-in-right {
-    0% {
-        -webkit-transform: translateX(1000px);
-        transform: translateX(1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
 
 #brainDamageImg {
     position: absolute;
-    right: calc(15% + 4vw);
+    width: 13%;
     bottom: 7%;
+    right: 27%;
     transform: rotate(-20deg);
 }
 
 .slider-text {
     margin-left: 6%;
-    height: 600px;
-    width: 46%;
-    min-width: 10%;
+    height: 100%;
+    //min-width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -430,14 +394,14 @@ h2 {
 /*  MEDIA QUERIES  */
 @media (min-width: 1900px){
     #brainDamageImg {
-        right: calc(17% + 4vw);
+        /*right: calc(17% + 4vw);*/
     }
 }
 
 
 @media (max-width: 1400px) {
     #brainDamageImg {
-        right: calc(12% + 4vw);
+        /*right: calc(12% + 4vw);*/
     }
 }
 
@@ -458,7 +422,7 @@ h2 {
     }
     #glassesImg {
 
-        right: calc(28% + 5vw);
+        /*right: calc(28% + 5vw);*/
     }
     .sectionContactMeFormulars {
         margin: 0.3rem 1rem;
@@ -481,6 +445,7 @@ h2 {
         .slider-text h2:nth-child(1) {
             font-size: 3.2rem; /*70px*/
         }
+<<<<<<< Updated upstream
 
         #imageSlider {
             background-size: 25rem; /* 570px, 35rem */
@@ -703,6 +668,230 @@ h2 {
             font-size: 2.1rem;
         }
 
+=======
+
+        #imageSlider {
+            /*background-size: 25rem;
+            background-position-x: 70%;
+            background-position-y: 85%;  */
+        }
+
+        .slider {
+            /*height: 40rem;*/
+        }
+
+        .separatorExperience{
+            font-size: calc(1.5rem + 3vw);
+            padding: 1% 0px;
+            top: -30px;
+        }
+
+        #sectionAboutMeImage {
+            margin: 0px 25%;
+            margin-bottom: 4%;
+        }
+
+        .sectionProjectWrapper {
+            margin: 4rem 5%;
+        }
+
+        .sectionProjectTextWrapper1 h2, .sectionProjectTextWrapper2 h2{
+            font-size: 1.4rem;
+        }
+
+        .sectionContactMe {
+            height: 40rem;
+        }
+
+        #glassesImg {
+            display: none;
+        }
+
+        #brainDamageImg {
+            display: none;
+        }
+
+        .sectionContactMeFormulars {
+            margin: auto;
+        }
+
+    }
+
+    @media (max-width: 768px) {
+
+        .marginMobile {
+            margin: 0rem 2rem;
+        }
+
+        #imageSlider {
+            /*background-position-x: 70%;
+            background-position-y: 100%;*/
+        }
+
+        .collapse-items-MyStyle {
+            margin: 0.2rem 2rem;
+        }
+
+        #contactItem {
+            background-color: #f8f9fa;
+            color: #F8BB71;
+            margin: 0rem;
+            border-radius: 6px;
+            padding: 0.3rem 0px;
+        }
+
+        #contactItem:hover {
+            background-color: #f8f9fa;
+            color: #245D7E;
+        }
+
+        .slider-text h1:nth-child(2) {
+            font-size: 1.5rem;
+        }
+
+        .slider-text p:nth-child(3) {
+            font-size: 1.7rem; /* 32px */
+        }
+
+        .slider-text h2:nth-child(1) {
+            font-size: 3.0rem; /*70px*/
+        }
+
+        .slider-text {
+            height: 400px;
+        }
+
+        #sectionAboutMeImage {
+            margin: 0px 17%;
+            margin-bottom: 4%;
+        }
+
+        #sectionAboutMeKnowMore {
+            width: 80%;
+            font-size: 22px;
+        }
+
+        .h2Titles {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .sectionProjectWrapper {
+            margin: 3.3rem 10%;
+        }
+
+        .sectionProjectTextWrapper1 p{
+            position: static;
+            text-align: center;
+            border-radius: 0px 0px 20px 20px;
+        }
+
+        .sectionProjectTextWrapper2 p{
+            position: static;
+            text-align: center;
+            border-radius: 20px 20px 0px 0px ;
+        }
+
+        .sectionProjectTextWrapper1 h2{
+            font-size: 1.8rem;
+            text-align: center;
+            background-color: #F8BB71;
+        }
+
+        .sectionProjectTextWrapper2 h2{
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .sectionProjectUL1 {
+            padding: 0.8rem 0rem;
+            border-radius: 0px 0px 0px 0px;
+            text-align: center;
+        }
+
+        .sectionProjectUL2 {
+            border-radius: 0px 0px 0px 0px;
+            text-align: center;
+            background-color: #F8BB71;
+        }
+
+        .sectionProjectImageWrapper1 img{
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        .sectionProjectImageWrapper2 img{
+            border-radius: 0px 0px 20px 20px;
+        }
+
+    }
+
+    @media (max-width: 576px) {
+
+        .slider-text h2:nth-child(1) {
+            font-size: calc(1.1rem + 3vw);
+            margin-bottom: 1rem;
+        }
+
+        .slider-text h1:nth-child(2) {
+            font-size: calc(0.5rem + 3.2vw);
+        }
+
+        .slider-text p:nth-child(3) {
+            font-size: calc(0.5rem + 2.5vw);
+        }
+
+        .slider {
+            background-image: linear-gradient(90deg, #F8BB71 60%, #245D7E 60%);
+            /*height: 35rem;*/
+        }
+
+        #imageSlider {
+            background-size: 18rem;
+        }
+
+        .sectionAboutMeDesc p:nth-child(1) {
+            font-size: 18px;
+        }
+
+        .sectionAboutMeDesc p:nth-child(2) {
+            font-size: 18px;
+        }
+
+        .sectionAboutMeDesc ul li {
+            font-size: 20px;
+        }
+
+        #sectionAboutMeImage {
+            width: calc(15rem + 10vw);
+            display: block;
+            margin: 2rem auto;
+
+        }
+
+        .h2Titles {
+            font-size: calc(1.1rem + 3.5vw);
+            margin-bottom: 20px;
+        }
+
+        .sectionSkillsDesc {
+            font-size: calc(0.5rem + 3.5vw);
+        }
+
+        .sectionSkillsListItem li {
+            font-size: 18px;
+        }
+
+        .sectionContactMeFormulars {
+            width: 90%;
+        }
+        .sectionContactMe {
+            height: 45rem;
+        }
+        #sectionContactMe {
+            font-size: 2.1rem;
+        }
+
+>>>>>>> Stashed changes
     }
 }
 @media (max-width: 320px) {
