@@ -5,22 +5,22 @@ body {
 }
 
 h1::selection {
-    background-color: lawngreen;
+    background-color: darkcyan;
 }
 
 li::selection {
-    background-color: lawngreen;
+    background-color: darkcyan;
 }
 
 p::selection {
-    background-color: lawngreen;
+    background-color: darkcyan;
 }
 
 h2::selection {
-    background-color: lawngreen;
+    background-color: darkcyan;
 }
 a::selection {
-    background-color: lawngreen;
+    background-color: darkcyan;
 }
 
 ul {
@@ -80,7 +80,7 @@ h2 {
 #imageSlider {
     height: 100%;
     width: 100%;
-    background-image: url('source/statue1500x1990m.png');
+    background-image: url('source/statue1500x1990m.webp');
     background-repeat: no-repeat;
     background-size: 65vh ;
     background-position-x: 70%;
@@ -487,7 +487,7 @@ h2 {
 
 @media (max-width: 1400px) {
     #imageSlider {
-        background-image: url('source/statue1000x1440m.png');
+        background-image: url('source/statue1000x1440m.webp');
         background-size: 60vh ;
     }
 
