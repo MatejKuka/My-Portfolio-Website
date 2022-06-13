@@ -159,44 +159,6 @@ h2 {
     }
 }
 
-.float-animation-1 {
-    animation: floating 5s ease-in-out infinite;
-}
-.float-animation-2 {
-    animation: floating 5s ease-in-out infinite;
-    animation-delay: 1s;
-}
-.float-animation-3 {
-    animation: floating 5s ease-in-out infinite;
-    animation-delay: 2s;
-}
-
-
-@keyframes floating {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-15px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-
-@-webkit-keyframes floating {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-15px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-
-
 .separatorExperience{
     position: absolute;
     display: block;
